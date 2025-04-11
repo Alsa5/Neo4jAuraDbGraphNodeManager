@@ -1,0 +1,80 @@
+/* App.css */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #e3f2fd, #bbdefb);
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 3rem auto;
+  background: #ffffff;
+  padding: 2.5rem;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(25, 118, 210, 0.2);
+}
+
+h2, h3 {
+  color: #0d47a1;
+  margin-bottom: 1.2rem;
+}
+
+input {
+  padding: 0.6rem 1rem;
+  margin: 0.5rem 0.5rem 1rem 0;
+  border: 1px solid #90caf9;
+  border-radius: 8px;
+  font-size: 1rem;
+  width: 250px;
+  transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+input:focus {
+  border-color: #1976d2;
+  outline: none;
+  box-shadow: 0 0 5px rgba(25, 118, 210, 0.5);
+}
+
+button {
+  padding: 0.6rem 1.2rem;
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #1565c0;
+  transform: translateY(-1px);
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  background-color: #e3f2fd;
+  padding: 0.8rem 1rem;
+  border-radius: 8px;
+  margin-bottom: 0.7rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #0d47a1;
+  font-weight: 500;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+li button {
+  background-color: #ef5350;
+}
+
+li button:hover {
+  background-color:rgb(109, 23, 23);
+}
